@@ -1,0 +1,8 @@
+{
+  "name": "Arena",
+  "version": "0.1.1",
+  "author": "Dargoth",
+  "description": "Walka na lokacji odgrywana jako pikselowa bitwa w stylu JRPG. Okno: /arena.",
+  "entryPoint": "plugin.ts",
+  "folders": ["arena", "client", "shared"]
+}

@@ -1,0 +1,21 @@
+{
+  "name": "arkadia-arena",
+  "version": "0.1.1",
+  "description": "Arkadia Web Client plugin - the fight on your location acted out as a pixel-art JRPG battle.",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node build.mjs",
+    "dev": "node build.mjs --serve",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@arkadia/plugin-types": "https://delwing.github.io/arkadia-web-client-extension/arkadia-plugin-types.tgz",
+    "@types/node": "^22",
+    "esbuild": "^0.24.0",
+    "typescript": "^5.8.0",
+    "vitest": "^3.2.0"
+  }
+}
